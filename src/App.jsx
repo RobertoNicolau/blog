@@ -17,11 +17,11 @@ const posts = [
     },
     content: [
       { type: "paragraph", content: "Novo post publicado" },
-      { type: "link", content: "github.com/RobertoNicolau" },
+      { type: "link", content: "https://github.com/RobertoNicolau" },
     ],
-    publishedAt: new Date("2022-05-03 20:0:00"),
+    publishedAt: new Date("2022-09-29 21:30:00"),
   },
-  {
+  /* {
     id: 2,
     author: {
       avatarUrl:
@@ -31,9 +31,11 @@ const posts = [
     },
     content: [
       { type: "paragraph", content: "Novo post publicado" },
-      { type: "link", content: "github.com/RobertoNicolau" },
+      { type: "link", content: "https://github.com/RobertoNicolau" },
+      { type: "paragraph", content: "Novo post publicado" },
+      { type: "paragraph", content: "Novo post publicado" },
     ],
-    publishedAt: new Date("2022-05-04 20:0:00"),
+    publishedAt: new Date("2022-05-04 20:00:00"),
   },
   {
     id: 3,
@@ -45,10 +47,10 @@ const posts = [
     },
     content: [
       { type: "paragraph", content: "Novo post publicado" },
-      { type: "link", content: "github.com/RobertoNicolau" },
+      { type: "link", content: "https://github.com/RobertoNicolau" },
     ],
-    publishedAt: new Date("2022-05-06 20:0:00"),
-  },
+    publishedAt: new Date("2022-05-06 20:00:00"),
+  }, */
 ];
 
 export function App() {
